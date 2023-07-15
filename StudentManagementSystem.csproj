@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assests\Add.png" />
+    <None Remove="Assests\Cancel.png" />
+    <None Remove="Assests\Delete.png" />
+    <None Remove="Assests\Edit.png" />
+    <None Remove="Assests\Faculty.jpg" />
+    <None Remove="Assests\Save.png" />
+    <None Remove="Assests\UOR.png" />
+    <None Remove="Images\1.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assests\Add.png" />
+    <Resource Include="Assests\Cancel.png" />
+    <Resource Include="Assests\Delete.png" />
+    <Resource Include="Assests\Edit.png" />
+    <Resource Include="Assests\Faculty.jpg" />
+    <Resource Include="Assests\Save.png" />
+    <Resource Include="Assests\UOR.png" />
+    <Resource Include="Images\1.jfif" />
+  </ItemGroup>
+
+</Project>
